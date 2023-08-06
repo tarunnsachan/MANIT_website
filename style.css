@@ -20,7 +20,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 120px;
+    width: 100px;
 }
 .nav-links{
     flex:1;
@@ -127,21 +127,75 @@ nav img{
 nav .fa{
     display: none;
 }
-.nav-links2{
-    flex:3;
-    text-align: center;
-}
-.nav-links2 ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.nav-links2 ul li a{
-    color: #b6ebeb;
+.RESEARCH{
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    position:absolute;
+    cursor: pointer;
+    top:110%;
+    left: 10%;
+  }
+.RESEARCH a{
+    color: #fbfcfc;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
+    position: absolute;
+    top:30%;
+    left:10%;
 }
+.NEWSLETTER{
+    width: 240px;
+    height: 100px;
+    background-color: #3498db;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    cursor: pointer;
+  }
+.NEWSLETTER a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+.CAREERS{
+    width: 170px;
+    height: 100px;
+    background-color: #3498db;
+    cursor: pointer;
+    position: absolute;
+    top:110%;
+    left:50%;
+  }
+.CAREERS a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top:30%;
+    left:12%;
+}
+.MANIT-ALUMNI{
+    width: 170px;
+    height: 100px;
+    background-color: #3498db;
+    cursor: pointer;
+    position:absolute;
+    top:110%;
+    left:70%;
+  }
+.MANIT-ALUMNI a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top:25%;
+    left:20%;
+}
+
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
