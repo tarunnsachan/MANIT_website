@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
 }
 .header{
     min-height: 100vh;
@@ -130,7 +130,7 @@ nav .fa{
 .RESEARCH{
     width: 200px;
     height: 100px;
-    background-color: #3498db;
+    background-color: #1572b0;
     position:absolute;
     cursor: pointer;
     top:110%;
@@ -147,7 +147,7 @@ nav .fa{
 .NEWSLETTER{
     width: 240px;
     height: 100px;
-    background-color: #3498db;
+    background-color: #acb541;
     position: absolute;
     top: 110%;
     left: 30%;
@@ -164,7 +164,7 @@ nav .fa{
 .CAREERS{
     width: 170px;
     height: 100px;
-    background-color: #3498db;
+    background-color: #1572b0;
     cursor: pointer;
     position: absolute;
     top:110%;
@@ -181,7 +181,7 @@ nav .fa{
 .MANIT-ALUMNI{
     width: 170px;
     height: 100px;
-    background-color: #3498db;
+    background-color: #acb541;
     cursor: pointer;
     position:absolute;
     top:110%;
@@ -195,7 +195,95 @@ nav .fa{
     top:25%;
     left:20%;
 }
-
+.fa-solid{
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 80%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%); /* Center the icon */
+}
+.fa-regular{
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    top: 50%; /* Adjust the vertical position */
+    left: 80%; /* Adjust the horizontal position */
+    transform: translate(-50%, -50%); /* Center the icon */
+}
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+    color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg);
+    border-color: var(--bs-btn-active-border-color);
+  }
+  
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(14, 127, 225, 0.5) !important;
+   
+  }
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #e1eb28 !important;
+    
+  }
+  
+  .btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+   
+  }
+  
+  a:hover {
+    color: #010000;
+  }
+  
+  a:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+  }
+  
+  .btn-xl {
+    position:absolute;
+    top:55%;
+    left:42%;
+  }
+  
+  .btn-primary {
+    background-color: #0ccaec;
+    border-color: #f05f40;
+    color: #fff;
+    
+  }
+  
+  .btn-xl {
+    padding: 1rem 2rem;
+  }
+  
+  .btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+  }
+  
+  .btn-primary {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #F05F40;
+    --bs-btn-border-color: #F05F40;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #f2775d;
+    --bs-btn-hover-border-color: #f26f53;
+    --bs-btn-focus-shadow-rgb: 204, 81, 54;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #f37f66;
+    --bs-btn-active-border-color: #f26f53;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #F05F40;
+    --bs-btn-disabled-border-color: #F05F40;
+  }
 @media(max-width: 700px){
     .text-box h1{
         font-size: 20px;
